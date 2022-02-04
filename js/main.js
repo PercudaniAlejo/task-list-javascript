@@ -22,6 +22,7 @@ window.addEventListener('load', () => {
 	const list_tasks = document.querySelector("#tasks");
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
+		
 		const task = input.value;
 		if(task === "")
 		{
