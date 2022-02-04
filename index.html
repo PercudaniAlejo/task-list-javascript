@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task-List Percudani</title>
+	<link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+	
+	<header>
+		<section class="header-title-profile">	
+			<h1>Task List</h1>
+			<div class="container-images">
+				<img id="profile" src="./resources/profile.jpg" alt="foto de prueba">
+				<button id="btn-exit"> <img id="bnt_exit2" src="./resources/exit.png" alt="Exit"> </button>
+			</div>
+		</section>
+		<form id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="New Task..." />
+			<input type="submit" id="new-task-submit" value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+			
+			<div id="tasks">
+				
+				<!-- <div class="task">
+					<div class="content">
+						<input 
+						readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">img</button>
+						<button class="delete">img</button>
+					</div>
+				</div> -->
+				
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div>
+			<p>Copyright. paguenme perras</p>
+		</div>
+	</footer>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
