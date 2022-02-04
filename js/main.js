@@ -77,7 +77,7 @@ window.addEventListener('load', () => {
 			// SE GENERA TODA LA LISTA (ACCIONES = EDITAR Y ELIMINAR - INPUT DE LA TAREA) 
 			task_el.appendChild(task_actions_el);
 			list_tasks.appendChild(task_el);
-			input.value = '';
+			input.value = ''
 		} 
 	});
 });
